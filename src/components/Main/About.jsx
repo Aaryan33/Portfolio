@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../pages/About/AboutPage.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import cv from '../../cv/cv.pdf';
-import { ButtomGet } from '../ButtomGet/ButtomGet';
+// import { ButtomGet } from '../ButtomGet/ButtomGet';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
