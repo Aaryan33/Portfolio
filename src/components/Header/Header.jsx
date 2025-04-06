@@ -15,7 +15,7 @@ import { langContext } from '../../context/Context';
 
 const Header = () => {
     // Buttom language
-    const idioma = useContext(langContext);
+    // const idioma = useContext(langContext);
     // Menu desplegable
     const menuDesplegable = () => {
         let navbar = document.querySelector('.navbar');
