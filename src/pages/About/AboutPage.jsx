@@ -16,18 +16,18 @@ import imgabout from '../../img/home.jpg';
 
 const About = () => {
 
-  function readMore() {
-    let btnHide = document.querySelector("#btn-hide");
-    let parrafoActive = document.querySelector(".parrafo-active");
+  // function readMore() {
+  //   let btnHide = document.querySelector("#btn-hide");
+  //   let parrafoActive = document.querySelector(".parrafo-active");
 
-    parrafoActive.classList.toggle("show");
+  //   parrafoActive.classList.toggle("show");
 
-    if (parrafoActive.classList.contains("show")) {
-      btnHide.innerHTML = "↑";
-    } else {
-      btnHide.innerHTML = "Read more";
-    }
-  }
+  //   if (parrafoActive.classList.contains("show")) {
+  //     btnHide.innerHTML = "↑";
+  //   } else {
+  //     btnHide.innerHTML = "Read more";
+  //   }
+  // }
 
   return (
     <div>
